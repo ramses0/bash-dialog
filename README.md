@@ -20,3 +20,7 @@ After thorough investigation, the winner of best(?) way to make a popup menu is 
 It isn’t actually a popup menu per-se but you get the best bang for your buck as far as using standard unix-isms and it is pretty much universally available since it’s a bash builtin.
 
 In actuality though, you only want to use the "select f in ..." idiom as a fallback for when the dialog command isn’t available. The following shell / dialog script is kindof ugly but gets the job done as far as providing the same inputs and outputs as above but with a more comfortable user interface.
+
+Please see the: dmenu.sh and dmenu.opt for my take on this useful little bash tool.
+
+They both depend on the "dialog" command being available, usually `apt-get install dialog`
