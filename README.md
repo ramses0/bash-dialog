@@ -24,3 +24,9 @@ In actuality though, you only want to use the "select f in ..." idiom as a fallb
 Please see the: dmenu.sh and dmenu.opt for my take on this useful little bash tool.
 
 They both depend on the "dialog" command being available, usually `apt-get install dialog`
+
+Slightly more discussion here:
+
+http://www.robertames.com/blog.cgi/entries/ascii-popup-menu-shell-script-bash.html
+
+http://stackoverflow.com/questions/3609230/best-way-to-make-a-popup-menu-for-semi-portable-shell-scripts/3620335
